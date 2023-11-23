@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+}
+
+header,
+footer {
+  background-color: black;
+  padding: 20px 20px;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav a {
+  text-decoration: underline;
+  color: white;
+  font-size: 1.5em;
+}
+
+header img {
+    width: 100px;
+    height: 80px;
+}
+
+main {
+  margin: 0;
+}
+
+.fond-accueil {
+    background-image: url(../Mon-site-web-CV/Images/Fond-site-web.jpeg);
+    padding: 400px;
+    background-repeat: repeat-x;  
+    background-position: center top;
+    filter: blur(7px);
+    opacity: 80%;
+}
+
+.a-propos {
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 3em;
+  color: white;
+  filter: none;
+}
+
+
